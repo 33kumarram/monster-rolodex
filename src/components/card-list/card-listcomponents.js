@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import './card-list.style.css';
 import { Card } from "../components1/card.component";
 export const Cardlist=props=>{

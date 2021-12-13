@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import './card.style.css';
 export const Card= props=>{
     return(
@@ -10,5 +10,5 @@ export const Card= props=>{
         <h2>{props.monster.name}</h2>
         <p>{props.monster.email}</p>
     </div>
-    )
+    );
 }
